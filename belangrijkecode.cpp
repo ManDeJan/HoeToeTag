@@ -3,10 +3,9 @@ int main(int argc, char const *argv[]) {
 
     int x = 8;
 
-    while (x) {
+    for (int i = 0; i < x; i++) {
         //Super belangrijke code
         std::cout << "Bliep bloop" << '\n';
-        x--;
     }
 
     return 0;
